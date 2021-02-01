@@ -1,0 +1,120 @@
+body {
+    background-image: url("asset/bg-1.jpg");
+    background-size: cover;
+    /*    background-repeat: no-repeat;*/
+    /*    cursor: help;*/
+    cursor: url("asset/gameboy.png"), auto;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    padding: 1.5em;
+    display: inline-block;
+    position: fixed;
+    font-size: 2em;
+    height: auto;
+    border: 3px solid black;
+}
+
+#p1 {
+    font-size: 1.3em;
+    background-color: white;
+    top: 5%;
+    left: 10%;
+    z-index: 6;
+    cursor: progress;
+}
+
+.poem {
+    top: 25%;
+    left: 50%;
+    width: 30%;
+    position: fixed;
+}
+
+#p2 {
+    /*    display: none;*/
+    background-color: rgba(46, 234, 49, 0.7);
+}
+
+#p3 {
+    display: none;
+    background-color: rgba(83, 101, 202, 0.7);
+}
+
+#p4 {
+    display: none;
+    background-color: rgba(225, 252, 22, 0.7);
+}
+
+h3 {
+    font-size: 0.6em;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.plants {
+    left: 200px;
+    top: 500px;
+    position: absolute;
+}
+
+#plant1 {
+    padding-left: 240px;
+    bottom: 250px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+.computer {
+    top: 30%;
+    padding-left: 40px;
+    width: 100px;
+    position: absolute;
+    cursor: zoom-in;
+}
+
+#computer-plants {
+    border: 3px solid black;
+    background-color: coral;
+    position: fixed;
+    padding: 30px;
+    top: 30%;
+    left: 28%;
+}
+
+#bgtext {
+    margin-left: 20%;
+    z-index: 2;
+    color: lawngreen;
+    font-size: 24px;
+}
+
+.pop-up {
+    display: none;
+    text-align: center;
+    padding: 40px;
+    background: #32e401;
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 30%;
+    position: fixed;
+}
+
+#garden-option {
+    position: fixed;
+    right: 20px;
+    margin: 30px;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: Transparent;
+    cursor: help;
+    padding: 20px;
+    border-radius: 50%;
+    z-index: 100;
+}
